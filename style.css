@@ -1,0 +1,24 @@
+@import url("./styles/header.css");
+@import url("./styles/cabecalho.css");
+@import url("./styles/metricas.css");
+@import url("./styles/vagas.css");
+@import url("./styles/depoimentos.css");
+@import url("./styles/rodape.css");
+
+:root {
+    --branco: #fff;
+    --cinza-claro: #F9FAFB;
+    --cinza-escuro: #101828;
+    --cinza: #667085;
+    --vermelho: #8E2424;
+    --vermelho-degrade: #8E24240D;
+}
+
+
+body {
+    background-color: var(--branco);
+    color: var(--cinza);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
